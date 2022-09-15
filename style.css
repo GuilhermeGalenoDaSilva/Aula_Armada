@@ -1,0 +1,64 @@
+.titulo {
+    background-color: rgba(22, 207, 231, 0.863);
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Old English Text MT;
+    color: black;
+    background-image: url(imagens/marinha.png);
+    background-position: center;
+    background-size: cover;
+}
+.card {
+        text-align: center;
+        box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        padding: 15px 15px;
+        width: 20vw;
+     }
+.card .foto1 {
+        background-image: url(imagens/ds.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+}
+.card .foto2 {
+        background-image: url(imagens/hunt.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+}
+.card .foto3 {
+        background-image: url(imagens/magao.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+}
+.card .foto4 {
+        background-image: url(imagens/rainha.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+}
+a {
+        color: grey;
+        font-family: Old English Text MT;
+        text-decoration: none;
+}
+a:hover {
+        color: red;
+}
+ h2 {
+        text-align: center;
+        font-family: Old English Text MT;
+ }
+
+ .cards {
+        display: flex;
+        justify-content: space-between;
+ }
+ ul {
+        list-style: none;
+        text-align: center;
+        font-family: Old English Text MT ;
+ }
